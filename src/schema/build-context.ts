@@ -1,5 +1,5 @@
 import { GraphQLScalarType } from "graphql";
-import type { ValidatorOptions } from "class-validator";
+import { ValidatorOptions } from "class-validator";
 import { PubSubEngine, PubSub, PubSubOptions } from "graphql-subscriptions";
 
 import { AuthChecker, AuthMode } from "../interfaces";

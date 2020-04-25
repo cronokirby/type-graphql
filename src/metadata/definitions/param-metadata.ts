@@ -1,4 +1,4 @@
-import type { ValidatorOptions } from "class-validator";
+import { ValidatorOptions } from "class-validator";
 
 import { TypeValueThunk, TypeOptions } from "../../decorators/types";
 import { ResolverData } from "../../interfaces";

@@ -1,4 +1,4 @@
-import type { ValidationError } from "class-validator";
+import { ValidationError } from "class-validator";
 
 export class ArgumentValidationError extends Error {
   constructor(public validationErrors: ValidationError[]) {
